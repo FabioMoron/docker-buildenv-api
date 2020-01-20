@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-RUN apk add --no-cache git php7 doxygen graphviz bash ssh
+RUN apk add --no-cache git php7 doxygen graphviz bash openssh-client
